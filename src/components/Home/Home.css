@@ -1,0 +1,58 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.name {
+  display: flex;
+  font-size: 330%;
+} 
+
+#s, #T, #h, #e, #o, #R, #a, #d, #i, #c, #u, #l, #p, #k, #x, #z   {
+  display: none;
+}
+
+#lastName {
+  display: none;
+}
+
+.paragraph {
+  margin-top: 1%;
+  font-size: 130%;
+}
+
+.paragraph a {
+  text-decoration: none;
+  color: rgb(249, 180, 61);
+  font-weight: 600;
+  transition-duration: 0.7s;
+}
+
+.paragraph a:hover {
+  text-shadow: 0 0 10px rgb(250, 250, 250);
+}
+
+
+/* Mobile Devices */
+@media screen and (max-width: 724px) {
+
+  .mainContainer {
+    padding-left: 20px;
+    padding-right: 3px;
+    align-items: start;
+    height: 80vh;
+  }
+
+  .name {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 17px;
+  }
+
+  .paragraph {
+    font-size: 19px;
+  }
+}
