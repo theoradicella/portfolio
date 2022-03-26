@@ -1,6 +1,6 @@
 import { React, useLayoutEffect, useState } from 'react';
-import Icons from '../Icons/Icons'
 import './Home.css'
+import Icons from '../Icons/Icons'
 
 
 const Home = () => {
@@ -47,6 +47,7 @@ const Home = () => {
     const marginRight = width > 724 ? 10 : 5
   return (
     <div className='mainContainer'>
+
       <div className='name'>
         <span style={{marginRight: marginRight}} id='s'>{width > 349 && '<'}</span>
         <span style={{marginRight: marginRight}} id='T'>T</span>

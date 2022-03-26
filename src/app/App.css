@@ -2,3 +2,68 @@ html {
   background-color: rgb(11, 10, 10);
   color: white;
 }
+
+/* BURGER MENU */
+
+.bm-cross {
+  background: #ffffff;
+  height: 25px !important;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 200%;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  right: 25px;
+  top: 25px;
+}
+
+.bm-burger-bars {
+  background: #ffffff;
+}
+.bm-menu {
+  background: #ff6347;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  height: 100%;
+}
+
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.listItems {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 20% !important;
+  padding: 10px;
+}
+
+.menuItem {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.iconsContainer {
+  margin: 0 0 20px 20px;
+}
+
+.bm-morph-shape {
+  fill: #ff6347;
+}
+
+/* END OF BURGER MENU  */
