@@ -1,5 +1,10 @@
 .icon {
   width: 100%;
+  transition-duration: 200ms;
+}
+
+.icon:hover {
+  width: 95%;
 }
 
 .iconLink{
