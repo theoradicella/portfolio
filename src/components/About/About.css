@@ -10,6 +10,8 @@
   font-size: 27px;
   font-weight: 500;
   margin-bottom: 10px;
+  opacity: 0;
+  transition-duration: 1.3s;
 }
 
 .aboutParagraph .clevertechLink {

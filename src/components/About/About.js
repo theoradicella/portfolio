@@ -1,6 +1,18 @@
+import { useEffect } from 'react';
 import './About.css';
 
 function About() {
+  
+useEffect(() => {
+  const paragraphs = document.getElementsByClassName("aboutParagraph");
+
+  for (let i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].style.opacity = '1'
+    console.log(paragraphs[i].style)
+  }
+}, [])
+
+
   return (
     <div className='aboutContainer'>
         <span className='aboutParagraph'>
