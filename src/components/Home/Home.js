@@ -49,7 +49,7 @@ const Home = () => {
     <div className='mainContainer'>
 
       <div className='name'>
-        <span style={{marginRight: marginRight}} id='s'>{width > 349 && '<'}</span>
+        <span style={{marginRight: marginRight, color: '#F9B43D'}} id='s'>{width > 349 && '<'}</span>
         <span style={{marginRight: marginRight}} id='T'>T</span>
         <span style={{marginRight: marginRight}} id='h'>h</span>
         <span style={{marginRight: marginRight}} id='e'>e</span>
@@ -63,8 +63,8 @@ const Home = () => {
         <span style={{marginRight: marginRight}} id='l'>l </span>
         <span style={{marginRight: marginRight}} id='p'>l </span>
         <span style={{marginRight: marginRight}} id='k'>a </span>
-        <span style={{marginRight: marginRight}} id='x'>{width > 349 && '/'}</span>
-        <span id='z'>{width > 349 && '>'}</span>
+        <span style={{marginRight: marginRight, color: '#F9B43D'}} id='x'>{width > 349 && '/'}</span>
+        <span id='z' style={{color: '#F9B43D'}}>{width > 349 && '>'}</span>
         <span id='textCursor'>{'|'}</span>
       </div>
       <span className='paragraph'>Software Developer, continuously learning.</span>
