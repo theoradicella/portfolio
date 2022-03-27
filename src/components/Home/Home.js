@@ -67,7 +67,7 @@ const Home = () => {
         <span id='z'>{width > 349 && '>'}</span>
         <span id='textCursor'>{'|'}</span>
       </div>
-      <span className='paragraph'>Full Stack Developer, continuously learning.</span>
+      <span className='paragraph'>Software Developer, continuously learning.</span>
       <span className='paragraph'>Currently working full-time developing amazing projects for <a href='https://www.clevertech.biz/'>Clevertech</a>.</span>
       <Icons />
     </div>

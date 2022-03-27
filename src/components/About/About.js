@@ -7,7 +7,7 @@ function About() {
           Hello.
         </span>
         <span className='aboutParagraph'>
-          My name is Theo Radicella and I'm an experienced Full stack developer based in Buenos Aires, Argentina.
+          My name is Theo Radicella and I'm an experienced Software Developer based in Buenos Aires, Argentina.
         </span>
 
         <span className='aboutParagraph'>
