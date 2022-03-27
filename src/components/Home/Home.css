@@ -9,6 +9,7 @@
 .name {
   display: flex;
   font-size: 330%;
+  font-weight: 400;
 } 
 
 #s, #T, #h, #e, #o, #R, #a, #d, #i, #c, #u, #l, #p, #k, #x, #z   {
@@ -22,6 +23,7 @@
 .paragraph {
   margin-top: 1%;
   font-size: 130%;
+  font-weight: 500
 }
 
 .paragraph a {

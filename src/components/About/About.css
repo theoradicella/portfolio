@@ -2,6 +2,51 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 95vh;
+  /* align-items: center; */
+  padding: 10% 15%;
 }
+
+.aboutParagraph {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.aboutParagraph .clevertechLink {
+  text-decoration: none;
+  color: rgb(249, 180, 61);
+  font-weight: 600;
+  transition-duration: 0.7s;
+}
+
+.aboutParagraph .coreLink {
+  text-decoration: none;
+  color: rgb(55, 178, 255);
+  font-weight: 600;
+  transition-duration: 0.7s;
+}
+
+.aboutParagraph .levadataLink {
+  text-decoration: none;
+  color: #9d5ccb;
+  font-weight: 600;
+  transition-duration: 0.7s;
+}
+
+.aboutParagraph a:hover {
+  text-shadow: 0 0 10px rgb(184, 182, 182);
+}
+
+@media screen and (max-width: 724px) {
+
+  .aboutContainer {
+    padding: 10% 10%;
+  }
+
+  .aboutParagraph {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+}
+
