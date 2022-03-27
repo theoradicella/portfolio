@@ -1,23 +1,23 @@
 import './App.css';
 import Router from '../routes';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter, Link } from 'react-router-dom';
 import { elastic as Menu } from 'react-burger-menu'
 import Icons from '../components/Icons/Icons';
 
 function App() {
   return (
-    <BrowserRouter >
+    <HashRouter >
         <Menu right >
           <div className='listItems'>
-              <a id="home" className="menuItem" href="/">Home</a>
-              <a id="about" className="menuItem" href="/about">About</a>
+              <Link id="home" className="menuItem" to="/">Home</Link>
+              <Link id="about" className="menuItem" to="/about">About</Link>
           </div>
           <div className='iconsContainer'>
             <Icons/>
           </div>
         </Menu>
       <Router />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
