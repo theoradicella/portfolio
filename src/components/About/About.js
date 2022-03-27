@@ -6,9 +6,12 @@ function About() {
 useEffect(() => {
   const paragraphs = document.getElementsByClassName("aboutParagraph");
 
+  let runTime = 0;
+
   for (let i = 0; i < paragraphs.length; i++) {
-    paragraphs[i].style.opacity = '1'
-    console.log(paragraphs[i].style)
+
+    const timeout = setTimeout(() => paragraphs[i].style.opacity = '1', runTime)
+    runTime += 120;
   }
 }, [])
 
